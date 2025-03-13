@@ -11,6 +11,7 @@ const Home = () => {
     <div>
       <Header/>
       <ExploreMenu category={category} setCategory={setCategory}/>
+      <FoodList/>
     </div>
   )
 }
